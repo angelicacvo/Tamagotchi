@@ -1,0 +1,47 @@
+.tamagotchi {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: 170px;
+    background-image: url(https://bulleblue-cosplay.com/wp-content/uploads/2020/12/tama-hello-kitty-pink.jpg);
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 207, 237);
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  img {
+    width: 100px;
+    margin: 100px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+  .button-label{
+    display: block;
+    background-color: rgb(247, 207, 237);
+    padding: 5px;
+  }
+  
+  progress{
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: white;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: rgb(223, 112, 112);
+  }
