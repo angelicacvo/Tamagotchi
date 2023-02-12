@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  font-family: 'Press Start 2P', cursive;
+}
+
 .tamagotchi {
     margin-left: 30%;
     margin-right: 30%;
@@ -11,12 +17,13 @@
     background-size: cover;
   }
   
-  h2 {
+  h2, p {
     display: flex;
     justify-content: center;
     background-color: rgb(247, 207, 237);
     margin-left: 30%;
     margin-right: 30%;
+    text-align: center;
   }
   
   img {

@@ -1,5 +1,6 @@
 <div >
   <h2> TAMAGOTCHI GAME </h2>
+  <p>Mueve el mouse alrededor del tamagotchi para comenzar el juego. Cuando sus necesidades sean menores a 30% su barra de vida disminuirá.</p>
   <div (mousemove)="lifebar()" class="tamagotchi" >
       <img *ngIf="(hunger<=50 ||sleepiness<=50)" src="../assets/img/tamagotchi-angry.png">
       <img *ngIf="!(hunger<=50 ||sleepiness<=50)"src="../assets/img/tamagotchi-start.png">
@@ -13,7 +14,6 @@
               <button (click)="sleep()" type="sleep-button">Sleep</button>
               <p>Life bar</p>
               <progress [value]="life" id="progress-bar-life" value="70" max="100">100%</progress>
-              <p>Mueve el mouse alrededor del <br> tamagotchi para comenzar el <br> juego. Cuando sus necesidades<br>sean menores a 50 su barra de<br>vida disminuirá.</p>
               <button (click)="start()" type="start-button">Start</button>
           </div>
       </div>
